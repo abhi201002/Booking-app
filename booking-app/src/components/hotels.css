@@ -1,0 +1,12 @@
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.listWrap{
+    padding: 15px 40px;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}

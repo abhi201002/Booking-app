@@ -1,0 +1,19 @@
+.images{
+    /* height: 500px; */
+    width: 100%;
+}
+.images-box{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+.image-size{
+    width: 100%;
+    height: 100%;
+}
+.image-size img{
+    width: 100%;
+    /* height: 500px; */
+    margin: auto;
+    object-fit: cover;
+}

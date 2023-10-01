@@ -1,0 +1,80 @@
+.listsearch{
+    flex: 1;
+    background-color: #febb02;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    height: max-content;
+    top:10px;
+}
+/* .listsearch > button{
+    background-color: #0071c2;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-weight: 500;
+} */
+.listTitle{
+    font-size: 20px;
+    color: #555;
+}
+.searchItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.searchItem>label{
+    font-size: 15px;
+}
+
+.searchItem>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+
+.searchItem>span{
+    height: 30px;
+    border: none;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searchInput{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.searchItemOption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchItemOption > span{
+    font-size: 12px;
+}
+.button_trans{
+    /* width: 100%; */
+}
+.search_button{
+    width: 100%;
+    background-color: #0071c2;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+.button_trans :hover{
+    transition: background-color 250ms !important;
+    background-color: #015ea1 !important;
+}

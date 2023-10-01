@@ -1,0 +1,7 @@
+.featured{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    padding: 0px 40px;
+}

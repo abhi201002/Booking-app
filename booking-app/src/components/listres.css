@@ -1,0 +1,100 @@
+.listres{
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.listres img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.listdesc{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 2;
+}
+
+.listtitle{
+    font-size: 20px;
+    color: #0071c2;
+}
+
+.listdetails{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.listTaxiOp{
+    background-color: green;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+}
+
+.listSubtitle{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.listCancelOp{
+    font-size: 12px;
+    color: green;
+    font-weight: bold;
+}
+
+.listCancelOpSubtitle{
+    font-size: 12px;
+    color: green;
+}
+
+.listRating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listRating > button{
+    font-weight: bold;
+    color: white;
+    background-color: #003580;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.listRating > span{
+    font-weight: bold;
+}
+
+.listDetailTexts{
+    /* text-align: right; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.listPrice{
+    font-size: 24px;
+}
+
+.listTaxOp{
+    font-size: 12px;
+    color: gray;
+}
+
+.listCheckButton{
+    background-color: #003580;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+}

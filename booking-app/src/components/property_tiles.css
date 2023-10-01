@@ -1,0 +1,23 @@
+.prop-img{
+    width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.prop-tiles{
+    /* height: 250px; */
+    position: relative;
+    color: white;
+    height: 250px;
+}
+
+.prop-titles{
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+.prop-titles h1{
+    font-size: 25px;
+}
+.prop-titles h2{
+    font-size: 20px;
+}

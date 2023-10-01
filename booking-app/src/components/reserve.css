@@ -1,0 +1,47 @@
+.Reserve{
+    background-color: rgba(0, 0, 0, 0.393);
+    height: 100vh;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reserveContainer{
+    padding: 20px;
+    background-color: white;
+    height: 100vh;
+    /* width: 60%; */
+    overflow: scroll;
+    position: relative;
+}
+.reserveClose{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.reserveItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.reserveTitle{
+    font-weight: 500;
+    font-size: 20px;
+}
+.reserveButton{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: #0071C2;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 2px;
+}

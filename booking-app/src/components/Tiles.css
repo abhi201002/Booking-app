@@ -1,0 +1,19 @@
+.tiles-img{
+    width: 100%;
+    max-width: 1024px;
+    object-fit: contain;
+}
+
+.featuredItem{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    height: 250px;
+}
+
+.featureTiles{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
