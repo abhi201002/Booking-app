@@ -8,7 +8,7 @@ import { useEffect } from 'react'
 
 function Qna({Data, deleteQuestion}) {
     const [data, setData] = useState(Data)
-    const [reply, setReply] = useState(false)
+    const [reply, setReply] = useState(true)
     const [comment, setComment] = useState("")
     const [state, dispatch] = useAuthValue()
 
@@ -98,7 +98,7 @@ function Qna({Data, deleteQuestion}) {
             }
         </div>
         <div className="button_trans reply_button">
-            <button className="review_reply" onClick={() => {onReply()}}>
+            <button className={["review_reply", !comment ? "disabled" : ""].join(" ")} onClick={() => {onReply()}} disabled = {!comment}>
                 Reply
             </button>
         </div>

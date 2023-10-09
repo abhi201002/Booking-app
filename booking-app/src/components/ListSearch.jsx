@@ -7,6 +7,7 @@ import { useDataValue } from './Datalayer';
 import { format } from 'date-fns';
 import ListRes from './ListRes';
 import List from './List';
+import Loader from './Loader';
 
 function ListSearch() {
     const location = useLocation();
@@ -76,7 +77,12 @@ function ListSearch() {
                 <button className='search_button'>Search</button>
             </div>
         </div>
-        <List item = {data}/>
+        {
+            loading ? 
+            <Loader/>
+            :
+            <List item = {data}/>
+        }
         {/* <div className="listRes">
             {console.log(data)}
             {data?.map((d)=>(

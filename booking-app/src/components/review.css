@@ -23,6 +23,7 @@
     height: 40px;
     /* height: 100%; */
     background-color: #0071C2;
+    transition: background-color 250ms;
     border-radius: 5px;
     border: none;
     color: white;
@@ -30,4 +31,8 @@
 }
 .review_ask{
     height: 100%;
+}
+.disabled{
+    background-color: grey !important;
+    transition: background-color 250ms;
 }

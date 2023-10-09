@@ -62,7 +62,7 @@ function Review({id, comments}) {
             <div className="review_Questions">
               <input type="text" placeholder='Ask a question' onChange={(e) => {setQuestion(e.target.value)}}/>
               <div className="button_trans review_ask">
-                <button onClick={() => handleAsk()}>Ask!</button>
+                <button className={["dummy", !question ? "disabled" : ""].join(" ")} onClick={() => handleAsk()} disabled = {!question}>Ask!</button>
               </div>
             </div>
             <hr />
